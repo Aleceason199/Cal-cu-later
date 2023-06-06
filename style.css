@@ -1,0 +1,70 @@
+html{
+    height: 100%;
+    min-height: 100%;
+}
+
+body{
+    background-color: bisque;
+    zoom: 100%;
+    margin: 0;
+    display: flex;
+    justify-content:center;
+    height: 100%;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:50%;
+    width:20%;
+}
+.screen{
+    border: 3px solid black;
+    height: 20%;
+    background-color: aliceblue;
+}
+.buttons{
+    border: 3px solid black;
+    height: 80%;
+    display: flex;
+}
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:75%;
+    height:100%;
+}
+.operators{
+    display: flex;
+    flex-direction: column;
+    width:25%;
+    height:100%;
+}
+
+.numbers button{
+    height:25%;
+    width:33.3333333333%;
+}
+
+.operators button{
+    height:18.75%;
+    width:100%;
+}
+button{
+    background-color: aquamarine;
+    border: 2px solid brown;
+    font-size: larger;
+    font-weight: bolder;
+    transition-duration: 0.4s;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+button:hover{
+    background-color: aqua;
+    color: white;
+}
+
+#equals{
+    height: 25%;
+}
+
